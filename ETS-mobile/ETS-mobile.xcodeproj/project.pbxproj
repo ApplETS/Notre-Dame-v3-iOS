@@ -29,8 +29,8 @@
 		25553FC720545D42009897F7 /* ETS_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25553FC620545D42009897F7 /* ETS_mobileUITests.swift */; };
 		846B169E20C710FB00AE5D1F /* ArmedPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B169D20C710FB00AE5D1F /* ArmedPersonViewController.swift */; };
 		84D608F920C74500007D9976 /* MedicalEmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D608F820C74500007D9976 /* MedicalEmergencyViewController.swift */; };
-		8C07EAA72169B711001FDB95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C07EAA62169B711001FDB95 /* GoogleService-Info.plist */; };
 		8D02513D22915D7EECD8FD50 /* Pods_ETS_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F92B4B5AE5B452ED7F3CA10 /* Pods_ETS_mobileUITests.framework */; };
+		95F048D7216A8E7F00A2FADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F048D6216A8E7F00A2FADE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,7 @@
 		80F0E56AB10D02E5AB8EB936 /* Pods-ETS-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETS-mobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETS-mobileTests/Pods-ETS-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		846B169D20C710FB00AE5D1F /* ArmedPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmedPersonViewController.swift; sourceTree = "<group>"; };
 		84D608F820C74500007D9976 /* MedicalEmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalEmergencyViewController.swift; sourceTree = "<group>"; };
-		8C07EAA62169B711001FDB95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95F048D6216A8E7F00A2FADE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7D2504DB691C6EC82B1785F /* Pods-ETS-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETS-mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETS-mobileUITests/Pods-ETS-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D1517052AE36C29B1585F0DC /* Pods_ETS_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETS_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B259C3DADEA3E7C118B00A /* Pods-ETS-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETS-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETS-mobile/Pods-ETS-mobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,9 +203,9 @@
 				25553FAA20545D42009897F7 /* Main.storyboard */,
 				25553FAD20545D42009897F7 /* Assets.xcassets */,
 				25553FAF20545D42009897F7 /* LaunchScreen.storyboard */,
+				95F048D6216A8E7F00A2FADE /* GoogleService-Info.plist */,
 				25553FB220545D42009897F7 /* Info.plist */,
 				1454550320B3647000EB7682 /* Localizable.strings */,
-				8C07EAA62169B711001FDB95 /* GoogleService-Info.plist */,
 			);
 			path = "ETS-mobile";
 			sourceTree = "<group>";
@@ -366,9 +366,9 @@
 			files = (
 				25553FB120545D42009897F7 /* LaunchScreen.storyboard in Resources */,
 				1454550520B3647000EB7682 /* Localizable.strings in Resources */,
-				8C07EAA72169B711001FDB95 /* GoogleService-Info.plist in Resources */,
 				25553FAE20545D42009897F7 /* Assets.xcassets in Resources */,
 				25553FAC20545D42009897F7 /* Main.storyboard in Resources */,
+				95F048D7216A8E7F00A2FADE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +705,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 37WEX8MR24;
+				DEVELOPMENT_TEAM = N742HF354K;
 				INFOPLIST_FILE = "ETS-mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.etsmtl.ETS-mobile";
@@ -721,7 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 37WEX8MR24;
+				DEVELOPMENT_TEAM = N742HF354K;
 				INFOPLIST_FILE = "ETS-mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.etsmtl.ETS-mobile";
