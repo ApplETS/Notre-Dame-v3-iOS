@@ -71,3 +71,4 @@ Pods/
 commit.txt
 
 # End of https://www.gitignore.io/api/macos,xcode
+ETS-mobile/ETS-mobile/GoogleService-Info.plist
